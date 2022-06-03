@@ -15,3 +15,11 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+function addShadow(element) {
+    element.classList.add("shadow");
+}
+
+function removeShadow(element) {
+    element.classList.remove("shadow");
+}

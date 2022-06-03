@@ -333,7 +333,6 @@ body{
     border-radius: 17px;
     border: none;
     margin: 25px;
-    box-shadow: 0px 0px 20px white;
 } 
 
 #lastname {
@@ -345,7 +344,6 @@ body{
     border-radius: 17px;
     border: none;
     margin: 25px;
-    box-shadow: 0px 0px 20px white;
 }
 
 #myemail {
@@ -357,7 +355,6 @@ body{
     border-radius: 17px;
     border: none;
     margin: 25px;
-    box-shadow: 0px 0px 20px white;
 }
 
 #mybday {
@@ -369,7 +366,6 @@ body{
     border-radius: 17px;
     border: none;
     margin: 25px;
-    box-shadow: 0px 0px 20px white;
 }
 
 #mytext {
@@ -381,7 +377,6 @@ body{
     border-radius: 17px;
     border: none;
     margin: 25px;
-    box-shadow: 0px 0px 20px white;
 }
 
 #mycomment {
@@ -391,14 +386,12 @@ body{
     border-radius: 17px;
     border: none;
     margin: 25px;
-    box-shadow: 0px 0px 20px white;
     padding: 10px;
 }
 
 #submit {
     background-color: black;
-    border: none;
-    box-shadow: 0px 0px 20px white;
+    border: 1px solid white;
     width: 160px;
     height: 40px;
     border-radius: 20px;
@@ -407,4 +400,8 @@ body{
 
 #submit:active {
     opacity: 65%;
+}
+
+.shadow {
+    box-shadow: 0px 0px 20px white;
 }
