@@ -52,3 +52,7 @@ bar4.addEventListener('click', () =>{
     document.querySelector("#bar4").style.backgroundColor = 'white';
     document.querySelector("#bar1, #bar2, #bar3").style.backgroundColor = 'goldenrod';
 });
+
+function remove() {
+    document.querySelector(".cookie").remove();
+}
