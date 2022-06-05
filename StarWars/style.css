@@ -190,7 +190,7 @@ button:active {
     width: 1400px;
     height: 300px;
     background-color: black;
-    box-shadow: 0px 0px 200px white;
+    box-shadow: 0px 0px 350px red;
     position: fixed;
     top: 50%;
     left: 50%;
